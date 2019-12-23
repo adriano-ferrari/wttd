@@ -2,6 +2,9 @@
 
 Sistema de Eventos encomendados pela Morena.
 
+[![Build Status](https://travis-ci.org/adriano-ferrari/wttd.svg?branch=master)](https://travis-ci.org/adriano-ferrari/wttd)
+
+
 ## Como Desenvolver
 
 1. Clone o repositório.
@@ -16,7 +19,7 @@ git clone git@github.com/adriano-ferrari/wttd wttd
 cd wttd
 python -m venv .wttd
 source .wttd/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
 ```
